@@ -1,0 +1,68 @@
+/* General Reset */
+body, h1, h3, p, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+li {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Subheadings */
+h3 {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Body Container */
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    p, li {
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
