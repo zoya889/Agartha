@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solving and Algorithms</title>
+    <link rel="stylesheet" href="reflectioncss.css">
+</head>
+
+<body>
+    <h1>Problem Solving and Algorithms</h1>
+
+    <h2>1. Kinds of Problems We See in Nature</h2>
+    <ul>
+        <li><strong>Recursion</strong>:Recursion is when a process solves a problem by breaking it into simpler, similar sub-problems. In nature, it appears in growth patterns and self-similar structures2. 
+            <ul>
+                <li> for example Tree branches.</li>
+            </ul>
+        </li>
+        <li><strong>Iteration</strong>: Iteration involves repeatedly performing a task until a certain condition is met. In nature, this is seen in processes like the movement of animals or the growth of plants. 
+            <ul>
+                <li>e.g, Waves on the shore, Seasonal tree. </li>
+            </ul>
+        </li>
+        <li><strong>Backtracking</strong>: Backtracking is when a process tries a solution, and if it fails, it returns to a previous step and tries another option. In nature, this is seen in animals' and plants' problem-solving behaviors.
+
+            <ul>
+                <li>examples Squirrel searching for food, Roots finding water</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>2. Space and Time Complexity</h2>
+    <ul>
+        <li><strong>Time Efficiency</strong>: How fast an algorithm runs. Important for performance and handling large data.</li>
+        <li><strong>Space Efficiency</strong>: How much memory an algorithm uses. Important for running on devices with limited resources.</li>
+        <li>Efficient algorithms lead to faster performance, lower costs, and the ability to handle complex problems.</li>
+       <ul> <li>Orders of Growth:
+            - O(1)
+            - O(log n)
+            - O(n)
+            - O(n log n)
+            - O(n^2)
+            - O(n^3)
+            - O(2^n)
+            - O(n!)</li></ul>
+    </ul>
+
+    <h2>3. Hierarchical Data and Data Structures</h2>
+    <ul>
+        <li><strong>Binary Trees</strong>:  Basic, unoptimized, used for simple hierarchy.</li>
+        <li><strong>Binary Search Trees (BST)</strong>: Efficient for search, insert, delete (O(log n) average), but can degrade to O(n) if unbalanced.</li>
+        <li><strong>AVL Tree</strong>:Self-balancing BST with O(log n) operations, always balanced.        </li>
+        <li><strong>2-3 Tree</strong>:Self-balancing BST with O(log n) operations, always balanced. </li>
+        <li><strong>Red-Black Tree</strong>: Balanced BST with specific rules, O(log n) operations, ensures balance with coloring.</li>
+        <li><strong>Heaps</strong>:Complete binary tree, used for priority queues; O(1) for max/min access, O(log n) for insertion/deletion</li>
+        <li><strong>Tries</strong>:Optimized for storing strings/prefixes, O(m) operations where m is string length, used in dictionaries and autocomplete.</li>
+    </ul>
+
+    <h2>4. Array Query Algorithms  and their implications. Their applications and
+        principles need to be discussed
+        </h2>
+    <ul>
+        <li><strong>Applications </strong>: <ul><li> Database systems</li>
+            <li> Search engines</li>
+           <li> Data analysis</li></ul></li>
+        <li><strong>Principles</strong>: <ul><li>Utilize efficient data structures </li>
+        <li>Employ algorithm design techniques (like divide and conquer)</li>
+        <li>Focus on time and space complexity</li>
+         </ul></li>
+    </ul>
+
+    <h2>5. Difference Between Trees and Graphs the applications of each</h2>
+    <ul>
+        <li><strong>Tree</strong>: A hierarchical structure with a root and no cycles. Each node has one parent and possibly many children.</li>
+        <li><strong>Graph</strong>: A collection of nodes connected by edges, which can have cycles and multiple paths.</li>
+            <ul>
+                <li><strong>Traversals:</strong></li>
+                <li><strong>Tree</strong>:<ul> <li> Left, root, right.</li>
+                <li>Pre-order:Root, left, right.</li>
+                <li>Post-order: Left, right, root.</li>
+                <li> Level-order: Node by node, level by level.</li></ul>
+                <li><strong>Graph</strong>:<ul> <li> DFS:Explores as deep as possible using stack/recursion.</li>
+                    <li>BFS: Explores level by level using a queue.</li></ul>
+                    <li><strong>Applications</strong>:<ul> <li> Tree:File systems, decision trees, binary search trees.</li>
+                        <li>Graph: Social networks, web crawlers, shortest path algorithms, network design.</li></ul>
+            </ul>
+        </li>
+    </ul>
+
+
+    <h2>6. Deliberate on sorting and searching algorithms, technique behind each and they connect to real world.</h2>
+    <ul>
+        <li><strong>Sorting Algorithms</strong>:
+            <ul> 
+            <li>1. Bubble Sort: Compares and swaps adjacent elements. Simple but slow for large data.</li>
+            <li>2. Quick Sort: Divides the list into smaller sublists and sorts them. Fast for large datasets.</li>
+            <li>3. Merge Sort: Divides, sorts, and merges. Efficient for large datasets.</li>
+            <li> 4. Insertion Sort: Inserts elements into the correct position. Good for small or nearly sorted data.</li>
+        </ul>
+            </li>
+        <li><strong>Searching Algorithms</strong>:
+            <ul>
+                <li>1. Linear Search: Checks each element one by one. Simple but slow.</li>
+                <li>2. Binary Search: Divides sorted data in half to find the target. Fast for sorted data.</li>
+                <li>3. Hashing: Uses a hash function for quick lookups. Very efficient for large datasets.</li>
+            </ul>
+        </li>
+        <li><strong>Real-World Applications:</strong>:
+            <ul>
+                <li>1. Sorting:Organizing data in files, databases, or search results.</li>
+                <li>2. earching: Finding items in databases, websites, or lists.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>7. Discuss the importance of graph algorithm with respect to spanning trees and shortest paths.</h2>
+    <ul>
+        <li><strong>Spanning Trees</strong>: A spanning tree connects all vertices without cycles. It minimizes connections, used in network design (e.g., minimizing cables) and in Prim's or *Kruskal's algorithms for Minimum Spanning Tree (MST).</li>
+        <li><strong>Shortest Paths</strong>: Finds the quickest route between two nodes. Essential in GPS navigation, network routing, and resource allocation, using algorithms like Dijkstra’s.</li>
+        </li>
+    </ul>
+    <h2>8. Discuss about the different studied algorithm design techniques.</h2>
+    <ul>
+        <li><strong>Dynamic Programming</strong>: Breaks problems into overlapping subproblems and stores results.</li>
+                <li>Example: Fibonacci sequence, shortest paths.</li>
+                <li><strong>Backtracking</strong>: Builds solutions step by step and abandons invalid ones.</li>
+                <li>Example: N-Queens problem.</li>
+        </li>
+    </ul>
+</body>
+
+</html>
