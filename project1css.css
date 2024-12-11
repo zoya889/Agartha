@@ -18,7 +18,7 @@ body {
 /* Header Styling */
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #2196F3; /* Blue Color */
     margin-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@ ul li {
 }
 
 h3 {
-    color: #4CAF50;
+    color: #2196F3; /* Blue Color */
     margin-bottom: 5px;
 }
 
