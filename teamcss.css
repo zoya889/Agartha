@@ -17,7 +17,7 @@ body {
 
 /* Header Styling */
 h1 {
-    color: #4CAF50;
+    color: #2196F3; /* Blue Color */
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -31,7 +31,7 @@ p {
 
 /* Button Styling */
 button {
-    background-color: #4CAF50;
+    background-color: #2196F3; /* Blue Color */
     color: white;
     font-size: 1rem;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ button {
 
 /* Button Hover Effect */
 button:hover {
-    background-color: #45a049;
+    background-color: #1976D2; /* Darker Blue for Hover */
 }
 
 /* Responsive Design */
