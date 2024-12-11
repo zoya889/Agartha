@@ -1,61 +1,68 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+    box-sizing: border-box;
 }
 
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading Styles */
 h1 {
-    background: #3f4bcb;
-    color: white;
+    font-size: 2.5rem;
     text-align: center;
-    padding: 20px 0;
-    margin: 0;
+    margin-bottom: 20px;
+    color: #007BFF;
 }
 
 h2 {
-    color: #3f4bcb;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #959fe4;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #343A40;
+    border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
 }
 
+/* List Styles */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    margin: 10px 0;
-    padding: 10px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-ul li strong {
-    color:  #3f4bcb;
-}
-
-ul li ul {
     margin-top: 10px;
+    margin-bottom: 20px;
     padding-left: 20px;
 }
 
-ul li ul li {
-    background: #e8f5e9;
-    color: #3f4bcb;
-    box-shadow: none;
+ul ul {
+    margin-top: 5px;
+    padding-left: 20px;
 }
 
-/* Links */
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #007BFF;
+}
+
+/* Highlighted Inline Text */
+code {
+    background-color: #e9ecef;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+}
+
+/* Link Styling */
 a {
-    color: #3f4bcb;
+    color: #007BFF;
     text-decoration: none;
 }
 
@@ -63,30 +70,18 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Code Highlight */
-code {
-    background: #f4f4f4;
-    padding: 2px 5px;
-    border-radius: 3px;
-    font-family: Consolas, "Courier New", monospace;
-}
-
-/* Styling for Headers */
-h1, h2 {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
 /* Responsive Design */
 @media (max-width: 600px) {
     h1 {
-        font-size: 24px;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
-    ul li {
-        font-size: 14px;
+    body {
+        padding: 10px;
     }
 }
+
