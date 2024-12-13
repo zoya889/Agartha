@@ -1,1 +1,32 @@
-
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color:#2196F3;
+}
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.case {
+    margin-bottom: 40px;
+}
+.case h2 {
+    border-bottom: 2px solid #2196F3;
+    padding-bottom: 5px;
+}
+.section {
+    margin-bottom: 20px;
+}
