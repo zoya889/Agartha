@@ -3,27 +3,45 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Corrected missing value */
+    background-color: #f9f9f9;
     color: #333;
-    border: 5px solid #2196F3; /* Added border around the body */
 }
 
-.container {
+.line-container {
     max-width: 800px;
-    margin: 20px auto; /* Centers the container horizontally */
+    margin: 20px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 3px solid #2196F3; /* Border around the container */
-    border-radius: 8px; /* Optional: rounded corners for the border */
-    text-align: center; /* Centers all text within the container, including paragraphs */
+    border: 3px solid #2196F3;
+    border-radius: 8px;
+    text-align: center;
 }
 
 h2 {
     color: #2196F3;
-    text-align: center; /* Centers the heading */
 }
 
 p {
-    text-align: center; /* Centers paragraph text */
+    text-align: center;
+}
+
+.code-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.code-btn:hover {
+    background-color: #1976D2;
+}
+
+.code-btn:active {
+    background-color: #1565C0;
 }
