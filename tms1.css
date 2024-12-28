@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Corrected missing value */
+    color: #333;
+    border: 5px solid #2196F3; /* Added border around the body */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Centers the container horizontally */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #2196F3; /* Border around the container */
+    border-radius: 8px; /* Optional: rounded corners for the border */
+    text-align: center; /* Centers all text within the container, including paragraphs */
+}
+
+h2 {
+    color: #2196F3;
+    text-align: center; /* Centers the heading */
+}
+
+p {
+    text-align: center; /* Centers paragraph text */
+}
